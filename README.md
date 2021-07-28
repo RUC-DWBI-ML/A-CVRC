@@ -17,7 +17,7 @@ Rule-based classifier, that extract a subset of induced rules to efficiently lea
 Before running the datasets, they need to be normalized. So we can use the "origin2standard" from "common" class to uniform the datasets which mainly use the MinMaxScaler method to deal with datasets. 
 
 	
-	### Any issues
-	
-	If you have any good ideas or demands, please open an issue/discussion to let me know.
-	If you have datasets that A-CVRC could not running, please also open an issue/discussion. I will record it (but I cannot guarantee to resolve it😛). 
+### Any issues
+
+If you have any good ideas or demands, please open an issue/discussion to let me know.
+If you have datasets that A-CVRC could not running, please also open an issue/discussion. I will record it (but I cannot guarantee to resolve it😛). 
