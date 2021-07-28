@@ -5,8 +5,6 @@
 
 Rule-based classifier, that extract a subset of induced rules to efficiently learn/mine while preserving the discernibility information, plays an essential role in human-explainable artificial intelligence. However, in this era of big data, rule induction on the whole datasets is computationally intensive. Till now, to our best knowledge, there is no method which focus on expediting rule induction. It is the first time this study considers the acceleration technique to reduce the scale of computation in rule induction. We propose an accelerator for rule induction based the fuzzy rough-set theory, which can avoid redundant computation and accelerate the building of rule classifier.
 
-### What is this package?
-
 ### Dependencies and Installation
 
   - python 3.6
