@@ -11,14 +11,14 @@ from paper.BatchSampleRuleClassifier import BatchSampleRuleClassifier
 ### fun1: running the RuleClassifier and print the accuracy of A-CVRC
 def fun1():
     #   "mode=1" and "mode=2" indicates the acclerator algorithm and non-acclerate version, respectively
-    dataList = ['Iono']
+    dataList = ['test']
     clf = RuleClassifier()
     getCVAccuracy_noise(dataList, 'RuleClassifier', clf, name=True, noise=0, alpha=0,
                           verbose=0, mode=1,save = True)
 
 ### fun2: Running the BatchSampleRuleClassifier and print the accuracy of A-BSRC
 def fun2():
-    dataList = ['Spam']
+    dataList = ['test']
     sample_percent = 0.01
     clf = BatchSampleRuleClassifier()
     getCVAccuracy_noise(dataList, 'BatchSampleRuleClassifier', clf, name=True, noise=0,alpha=0, sample_percent=sample_percent, early=0, verbose=0)
