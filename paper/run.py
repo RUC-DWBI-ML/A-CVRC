@@ -1,12 +1,7 @@
 
-
-
-from paper.FVPRS import getCrossValAccuracy_noise_FVPRS,FVPRS
 from paper.common import  getCVAccuracy_noise
 from paper.RuleClassifier import RuleClassifier
 from paper.BatchSampleRuleClassifier import BatchSampleRuleClassifier
-from paper.LEM2RuleClassifier import LEM2RuleClassifier
-from paper.VCDOLEMRuleClassifier import VCDOLEMRuleClassifier
 
 
 ### Datasets:
