@@ -192,7 +192,6 @@ class RuleClassifier(object):
         else:
             self.X_train = X_train
             self.y_train = y_train
-        # 索引列表
         self.X_train.index = self.X_train.index.astype(str)
         self.y_train.index = self.y_train.index.astype(str)
         self.idx = self.X_train.index
