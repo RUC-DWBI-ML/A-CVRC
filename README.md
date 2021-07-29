@@ -20,7 +20,7 @@ We conducted numerical experiments on a series of UCI and KEEL datasets. Before 
 
 Running the ``run.py`` file
 
-### Any issues
+### Contact
 
 If you have any good ideas or demands, please open an issue/discussion to let me know.
 If you have datasets that A-CVRC could not running, please also open an issue/discussion. I will record it (but I cannot guarantee to resolve it😛). 
