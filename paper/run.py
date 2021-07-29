@@ -19,6 +19,7 @@ def fun1():
 ### fun2: Running the BatchSampleRuleClassifier and print the accuracy of A-BSRC
 def fun2():
     dataList = ['test']
+    ### If the number of samples is greater than 20000, the value of sample_percent is set to 0.001
     sample_percent = 0.01
     clf = BatchSampleRuleClassifier()
     getCVAccuracy_noise(dataList, 'BatchSampleRuleClassifier', clf, name=True, noise=0,alpha=0, sample_percent=sample_percent, early=0, verbose=0)
