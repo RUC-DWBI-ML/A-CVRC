@@ -17,7 +17,7 @@ Rule-based classifier, that extract a subset of induced rules to efficiently lea
 We conducted numerical experiments on a series of UCI and KEEL datasets. Before running the datasets, they need to be normalized. So we can use the "origin2standard" from "common" class to uniform the datasets which mainly use the MinMaxScaler method to deal with datasets. 
 
 ### Usage
-Try
+Running the ``run.py`` file
 
 ### Any issues
 
